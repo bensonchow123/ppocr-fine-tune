@@ -1,5 +1,5 @@
 # PP-OCRv5 Fine-Tune
-The actual code is at the company server at /drow//projects/ppocr-v5-fine-tune, the training data is avaliable there.
+The actual code is at the company server at drow, the training data is avaliable there.
 
 ## 1. Create Training Dataset
 - Go to `data-annotation-notes` to run PPOCRLabel on the server to label training data.
