@@ -1,0 +1,108 @@
+# AI generated gitignore file
+# Virtual environments
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# VS Code
+.vscode/
+
+# Log files
+*.log
+logs/
+
+# Model files and outputs
+model-test-output/
+output/
+pp-structure-output/
+*.pdparams
+*.pdmodel
+*.pdiparams
+*.nb
+*.onnx
+
+# Training data and datasets
+train_data/
+ppocr-labeled-data/
+model-test-pdfs/
+*.tar
+*.tar.gz
+*.zip
+
+# Nested git repositories (should be submodules instead)
+PaddleOCR/
+
+# Cache files
+Cache.cach
+fileState.txt
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Fine-tuning specific outputs
+inference/
+pretrain_models/
+test_tipc/
+deploy/
+
+# Large model files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# Test outputs
+test_output/
+results/
+
+# Backup files
+*.bak
+*.backup
+
+# All training/validation image files with spaces in names
+train_data/**/*\ *.jpg
+train_data/**/*\ *.jpeg
+train_data/**/*\ *.png
+
+# Specific problematic patterns
+*Mini\ pile*
+*\(P.5-7\)*
+*New\ Concepts*
+
+# Ignore the pretrained model file
+finetuning-misc/PP-OCRv5_server_rec_pretrained.pdparams
